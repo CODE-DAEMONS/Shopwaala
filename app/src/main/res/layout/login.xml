@@ -75,6 +75,13 @@
             android:id="@+id/password"
             android:layout_below="@+id/username"/>
 
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:id="@+id/show"
+            android:layout_below="@+id/password"/>
+
     </RelativeLayout>
 
 </RelativeLayout>
